@@ -52,7 +52,14 @@ section {
 }
 
 /* CARD */
-.cards {
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card {
     /* width: 175px; */
     font-size: 12px;
     padding: 20px;
@@ -60,6 +67,9 @@ section {
 .card-image {
     border-radius: 9px;
     margin-bottom: 5px;
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
 }
 .card-stats {
     display: flex;
@@ -70,6 +80,6 @@ section {
     height: 14px;
     margin-right: 5px;
 }
-.cards p {
+.card p {
     margin-top: 5px;
 }
