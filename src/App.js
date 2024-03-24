@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      <Card img = {swimmer}
+      <Card img={swimmer}
             rating="5.0"
             reviewCount={6}
             country="USA"
