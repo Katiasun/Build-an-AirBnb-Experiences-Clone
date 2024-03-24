@@ -54,10 +54,12 @@ section {
 /* CARD */
 .cards-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 20px;
+    overflow-x: auto;
 }
 .card {
     /* width: 175px; */
