@@ -81,7 +81,7 @@ section {
     margin-right: 5px;
 }
 .card-title {
-    margin-top: 5px;
+    margin: 6px 0;
     overflow: hidden;
     text-overflow: ellipsis;
 }

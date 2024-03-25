@@ -15,7 +15,9 @@ function App() {
             reviewCount={item.stats.reviewCount}
             country={item.location}
             title={item.title}
-            prise={item.price}/>
+            prise={item.price}
+            openSpots={item.openSpots}
+            />
   });
 
   return (
