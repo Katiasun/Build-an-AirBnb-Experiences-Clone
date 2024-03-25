@@ -6,6 +6,7 @@ import star from "../imgs/Star.png"
 export default function Card(props) {
     return (
             <div className="card">
+                <div className="card-badge">Sold out</div>
                 <img src={props.img} alt = "pic" className="card-image"/>
                 <div className="card-stats">
                 <img src = {star} alt = "star" className="card-star"/>
