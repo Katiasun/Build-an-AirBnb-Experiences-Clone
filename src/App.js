@@ -12,7 +12,8 @@ function App() {
   const cards = arrPageInfo.map(item => {
     return <Card
               key={item.id}
-              dataPropsObject = {item}
+              {...item}
+              // dataPropsObject = {item}
             />
   });
 
