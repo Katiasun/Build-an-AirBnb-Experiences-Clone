@@ -10,13 +10,9 @@ import arrPageInfo from "./data";
 function App() {
 
   const cards = arrPageInfo.map(item => {
-    return <Card key={item.id} img={item.coverImg}
-            rating={item.stats.rating}
-            reviewCount={item.stats.reviewCount}
-            country={item.location}
-            title={item.title}
-            prise={item.price}
-            openSpots={item.openSpots}
+    return <Card
+              key={item.id}
+              dataPropsObject = {item}
             />
   });
 
